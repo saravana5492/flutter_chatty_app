@@ -45,20 +45,20 @@ class MobileChatScreen extends ConsumerWidget {
               );
             }),
         centerTitle: false,
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.video_call),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.call),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.more_vert),
-          ),
-        ],
+        // actions: [
+        //   IconButton(
+        //     onPressed: () {},
+        //     icon: const Icon(Icons.video_call),
+        //   ),
+        //   IconButton(
+        //     onPressed: () {},
+        //     icon: const Icon(Icons.call),
+        //   ),
+        //   IconButton(
+        //     onPressed: () {},
+        //     icon: const Icon(Icons.more_vert),
+        //   ),
+        // ],
       ),
       body: SafeArea(
         child: Column(

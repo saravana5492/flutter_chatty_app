@@ -1,16 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:chatty/colors.dart';
-import 'package:chatty/info.dart';
 import 'package:chatty/features/chat/widgets/chat_list.dart';
 import 'package:chatty/widgets/web_chat_appbar.dart';
 import 'package:chatty/features/chat/widgets/contacts_list.dart';
-import 'package:chatty/features/chat/widgets/my_message_card.dart';
-import 'package:chatty/features/chat/widgets/sender_message_card.dart';
 import 'package:chatty/widgets/web_profile_bar.dart';
 import 'package:chatty/widgets/web_search_bar.dart';
 
 class WebLayoutScreen extends StatelessWidget {
-  const WebLayoutScreen({Key? key}) : super(key: key);
+  const WebLayoutScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +15,10 @@ class WebLayoutScreen extends StatelessWidget {
       body: Row(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Expanded(
+          const Expanded(
             child: SingleChildScrollView(
               child: Column(
-                children: const [
+                children: [
                   WebProfileBar(),
                   WebSearchBar(),
                   ContactsList(),

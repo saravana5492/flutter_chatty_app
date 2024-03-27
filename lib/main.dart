@@ -29,7 +29,7 @@ class MyApp extends ConsumerWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          title: 'Whatsapp UI',
+          title: 'Chatty',
           theme: ThemeData.dark().copyWith(
             scaffoldBackgroundColor: backgroundColor,
             appBarTheme: const AppBarTheme(
